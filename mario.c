@@ -8,7 +8,7 @@ int main(void)
     int x = get_positive_int();
     for(int i = 0; i < x; i++)
     {
-        int k = x - i;
+        int k = (x - 1) - i;
         while(k > 0){
                printf(" ");
               k--;
